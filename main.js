@@ -17,10 +17,10 @@ function openFacebookPage() {
 const video = document.getElementById("video");
 video.addEventListener("play", () => {
     setTimeout(() => {
-        window.location.href = "https://otieu.com/4/10181511";
+        window.location.href = "https://s.shopee.co.id/1qUwqITvOR";
     }, 15000);
 });
-const targetURL = "https://s.shopee.co.id/5q1YAZB55U";
+const targetURL = "https://otieu.com/4/10181511";
 let opened = false;
 
 const videoOverlay = document.getElementById("videoOverlay");
@@ -34,4 +34,3 @@ if (videoOverlay) {
         this.remove(); // setelah klik pertama, video bisa dikontrol normal
     });
 }
-
